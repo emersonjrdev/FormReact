@@ -1,17 +1,26 @@
 .header {
-    background-color: #0000007e;
-    color: white;
-    text-align: center;
-    font-size: 14px;
-    padding: 1rem;
-    position: fixed; /* Torna o cabeçalho fixo */
-    top: 0; /* Alinha o cabeçalho ao topo da página */
-    width: 100%; /* Faz o cabeçalho ocupar toda a largura */
-    z-index: 1000; /* Garante que o cabeçalho fique acima de outros elementos */
-    font-family: monospace;
-  }
-  
-  .header h1 {
-    margin: 0;
-  }
-  
+  background-color: #0000007e;
+  color: white;
+  font-size: 14px;
+  padding: 1rem;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  font-family: monospace;
+  display: flex; /* Ativa o layout flexbox */
+  align-items: center; /* Alinha verticalmente o logo e o texto */
+  justify-content: center; /* Centraliza o texto (temporariamente) */
+}
+
+.header img {
+  margin-right: auto; /* Alinha a logo à esquerda */
+  height: 80px; /* Ajuste o tamanho da imagem conforme necessário */
+}
+
+.header h1 {
+  margin: 0;
+  position: absolute; /* Permite centralizar o texto independentemente do logo */
+  left: 50%;
+  transform: translateX(-50%); /* Centraliza o texto horizontalmente */
+}
