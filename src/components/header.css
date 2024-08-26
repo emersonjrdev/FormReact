@@ -1,0 +1,17 @@
+.header {
+    background-color: #0000007e;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    padding: 1rem;
+    position: fixed; /* Torna o cabeçalho fixo */
+    top: 0; /* Alinha o cabeçalho ao topo da página */
+    width: 100%; /* Faz o cabeçalho ocupar toda a largura */
+    z-index: 1000; /* Garante que o cabeçalho fique acima de outros elementos */
+    font-family: monospace;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  

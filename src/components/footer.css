@@ -1,0 +1,13 @@
+.footer {
+    background-color: #0000007e;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem;
+    position: fixed; /* Torna o rodapé fixo */
+    bottom: 0; /* Alinha o rodapé à parte inferior da página */
+    width: 100%; /* Faz o rodapé ocupar toda a largura */
+    z-index: 1000; /* Garante que o rodapé fique acima de outros elementos */
+    font-family: monospace;
+  }
+  
