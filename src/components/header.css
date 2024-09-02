@@ -17,7 +17,7 @@
   margin-right: auto; /* Alinha a logo à esquerda */
   height: 80px; /* Ajuste o tamanho da imagem conforme necessário */
 }
-
+ 
 .header h1 {
   margin: 0;
   position: absolute; /* Permite centralizar o texto independentemente do logo */
